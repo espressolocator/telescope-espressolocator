@@ -22,15 +22,12 @@ Package.onUse(function (api) {
 
   api.addFiles([
     'lib/custom_fields.js',
-    'lib/template_modules.js',
     'lib/callbacks.js'
   ], ['client', 'server']);
 
   // client
 
   api.addFiles([
-    'lib/client/templates/hello.html',
-    'lib/client/templates/hello.js',
     'lib/client/templates/custom_post_title.html',
     'lib/client/stylesheets/custom.scss',
     'lib/client/custom_templates.js'
