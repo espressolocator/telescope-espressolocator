@@ -1,3 +1,5 @@
 <template name="custom_post_title">
-  <a href="{{postLink}}" class="post-title" target="{{postTarget}}">{{title}} {{randomEmoji}}</a>
+  <h3 class="post-title {{moduleClass}}">
+    <a href="{{this.getPageUrl}}" class="post-title">{{title}}</a>
+  </h3>
 </template>
