@@ -1,4 +1,25 @@
-.custom-hero-banner{
-  text-align: center;
-  color: purple;
+@import "{telescope:theme-hubble}/lib/client/scss/partials/grid";
+@import "{telescope:theme-hubble}/lib/client/scss/partials/colors";
+@import "{telescope:theme-hubble}/lib/client/scss/partials/mixins";
+
+.post-body {
+        .post-domain {
+                color: $light-text;
+                @include small {
+                        font-size: 13px;
+                }
+                @include medium-large {
+                        font-size: 14px;
+                }
+                font-weight: normal;
+        }
+}
+
+@include small {
+	.post-body {
+		.post-domain {
+			margin-bottom: 4px;
+			font-size: 13px;
+		}
+	}
 }

@@ -1,0 +1,10 @@
+<template name="custom_post_body">
+  <div class="post-body" aria-live="polite">
+    {{#if url}}
+      <span class="post-domain"><a href="{{url}}">{{domain}}</a></span>
+    {{/if}}
+    <div class="markdown">
+      {{{htmlBody}}}
+    </div>
+  </div>
+</template>

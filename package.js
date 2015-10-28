@@ -6,6 +6,8 @@ Package.describe({
 
 Package.onUse(function (api) {
 
+  api.versionsFrom("METEOR@1.0");
+
   // ---------------------------------- 1. Core dependency -----------------------------------
 
   api.use("telescope:core");
@@ -30,6 +32,8 @@ Package.onUse(function (api) {
 
   api.addFiles([
     'lib/client/templates/custom_post_title.html',
+    'lib/client/templates/custom_post_body.html',
+    'lib/client/templates/custom_post_body.js',
     'lib/client/stylesheets/custom.scss',
     'lib/client/custom_templates.js'
   ], ['client']);
