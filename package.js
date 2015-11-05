@@ -1,7 +1,7 @@
 Package.describe({
   summary: 'Telescope EspressoLocator customisation package',
   version: '0.0.1',
-  name: 'espressolocator'
+  name: 'kabalin:telescope-espressolocator'
 });
 
 Package.onUse(function (api) {
