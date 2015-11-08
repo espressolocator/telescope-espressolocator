@@ -8,11 +8,10 @@ Package.onUse(function (api) {
 
   api.versionsFrom("METEOR@1.0");
 
-  // ---------------------------------- 1. Core dependency -----------------------------------
-
-  api.use("telescope:core");
-
-  // ---------------------------------- 2. Files to include ----------------------------------
+  api.use([
+    'telescope:core',
+    'kabalin:autoform-geojson-point',
+  ], ['client', 'server']);
 
   // i18n config (must come first)
 
