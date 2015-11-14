@@ -34,7 +34,9 @@ Package.onUse(function (api) {
     'lib/client/templates/custom_post_body.html',
     'lib/client/templates/custom_post_body.js',
     'lib/client/stylesheets/custom.scss',
-    'lib/client/custom_templates.js'
+    'lib/client/custom_templates.js',
+    'lib/client/autoform-map.html',
+    'lib/client/autoform-map.js',
   ], ['client']);
 
   // server
