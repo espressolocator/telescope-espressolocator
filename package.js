@@ -39,6 +39,7 @@ Package.onUse(function (api) {
     'lib/client/stylesheets/custom.scss',
     'lib/client/custom_templates.js',
     'lib/client/autoform_map.html',
+    'lib/client/google_maps.js',
   ], ['client']);
 
   // server
