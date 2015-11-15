@@ -53,4 +53,8 @@ Package.onUse(function (api) {
     'i18n/en.i18n.json'
   ], ['client', 'server']);
 
+  // static fles
+  api.addAssets([
+    'public/logo-icon-marker.png',
+    ], ['client']);
 });
