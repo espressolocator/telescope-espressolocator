@@ -37,9 +37,9 @@ Package.onUse(function (api) {
     'lib/client/templates/custom_post_body.js',
     'lib/client/templates/custom_post_edit.js',
     'lib/client/templates/custom_post_submit.js',
+    'lib/client/templates/autoform_map_coordinates.html',
     'lib/client/stylesheets/custom.scss',
     'lib/client/custom_templates.js',
-    'lib/client/autoform_map.html',
     'lib/client/google_maps.js',
   ], ['client']);
 
@@ -58,5 +58,6 @@ Package.onUse(function (api) {
   // static fles
   api.addAssets([
     'public/logo-icon-marker.png',
-    ], ['client']);
+  ], ['client']);
+
 });
