@@ -11,7 +11,9 @@ Package.onUse(function (api) {
   api.use([
     'telescope:core',
     'kabalin:autoform-geojson-point',
+    'jeremy:geocomplete',
   ], ['client', 'server']);
+  api.imply('dburles:google-maps');
 
   // i18n config (must come first)
 
@@ -33,10 +35,10 @@ Package.onUse(function (api) {
     'lib/client/templates/custom_post_title.html',
     'lib/client/templates/custom_post_body.html',
     'lib/client/templates/custom_post_body.js',
+    'lib/client/templates/custom_post_edit.js',
     'lib/client/stylesheets/custom.scss',
     'lib/client/custom_templates.js',
     'lib/client/autoform_map.html',
-    'lib/client/autoform_map.js',
   ], ['client']);
 
   // server
