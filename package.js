@@ -41,6 +41,7 @@ Package.onUse(function (api) {
     'lib/client/stylesheets/custom.scss',
     'lib/client/custom_templates.js',
     'lib/client/google_maps.js',
+    'lib/client/assets.js',
   ], ['client']);
 
   // server
@@ -57,7 +58,7 @@ Package.onUse(function (api) {
 
   // static fles
   api.addAssets([
-    'public/logo-icon-marker.png',
+    'assets/logo-icon-marker.png',
   ], ['client']);
 
 });
