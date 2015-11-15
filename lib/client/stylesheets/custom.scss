@@ -23,3 +23,20 @@
 		}
 	}
 }
+
+.post-edit {
+        .map-container {
+                width: 100%;
+                max-width: 100%;
+                height: 500px;
+                margin-bottom: 10px;
+                clear: both;
+        }
+}
+
+.pac-container:after {  /* Disclaimer: not needed to show 'powered by Google' if also a Google Map is shown */
+        background-image: none !important;
+        height: 0px;
+        padding: 0px;
+        margin: 0px;
+}
