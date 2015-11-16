@@ -3,6 +3,7 @@
 @import "{telescope:theme-hubble}/lib/client/scss/partials/mixins";
 
 .post-body {
+        overflow: auto;
         .post-domain {
                 color: $light-text;
                 @include small {
@@ -12,6 +13,7 @@
                         font-size: 14px;
                 }
                 font-weight: normal;
+                margin-bottom: 1em;
         }
         .map-container {
                 width: 30%;
