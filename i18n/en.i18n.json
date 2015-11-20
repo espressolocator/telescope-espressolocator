@@ -1,3 +1,5 @@
 {
-  "address" : "Address"
+  "address" : "Address",
+  "distance" : "Nearest",
+  "distance_view" : "Order by distance to the current location"
 }

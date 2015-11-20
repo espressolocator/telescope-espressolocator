@@ -27,6 +27,7 @@ Package.onUse(function (api) {
     'lib/custom_fields.js',
     'lib/callbacks.js',
     'lib/modules.js',
+    'lib/distance.js',
   ], ['client', 'server']);
 
   // client
