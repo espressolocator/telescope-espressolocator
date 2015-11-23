@@ -13,10 +13,9 @@ Package.onUse(function (api) {
     'kabalin:autoform-geojson-point',
     'jeremy:geocomplete',
   ], ['client', 'server']);
-  api.imply('dburles:google-maps');
+  api.imply(['dburles:google-maps']);
 
   // i18n config (must come first)
-
   api.addFiles([
     'package-tap.i18n'
   ], ['client', 'server']);

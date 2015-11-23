@@ -1,5 +1,11 @@
 {
   "address" : "Address",
+  "addressLine1" : "Address Line 1",
+  "addressLine2" : "Address Line 2",
+  "city" : "City",
+  "county" : "County",
+  "postcode" : "Postcode",
+  "country" : "Country",
   "distance" : "Nearest",
   "distance_view" : "Order by distance to the current location"
 }
