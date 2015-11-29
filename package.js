@@ -42,6 +42,7 @@ Package.onUse(function (api) {
     'lib/client/stylesheets/custom.scss',
     'lib/client/custom_templates.js',
     'lib/client/google_maps.js',
+    'lib/client/address_panel.js',
     'lib/client/assets.js',
   ], ['client']);
 

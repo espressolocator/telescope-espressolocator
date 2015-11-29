@@ -45,6 +45,11 @@
                 margin-bottom: 10px;
                 clear: both;
         }
+        .reset-location {
+                float: right;
+                font-size: smaller;
+                display: block;
+        }
 }
 
 .pac-container:after {  /* Disclaimer: not needed to show 'powered by Google' if also a Google Map is shown */

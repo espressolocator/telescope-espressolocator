@@ -7,5 +7,7 @@
   "postcode" : "Postcode",
   "country" : "Country",
   "distance" : "Nearest",
-  "distance_view" : "Order by distance to the current location"
+  "distance_view" : "Order by distance to the current location",
+  "specifyLocation" : "Specify where it is located...",
+  "resetLocation": "Reset location"
 }
