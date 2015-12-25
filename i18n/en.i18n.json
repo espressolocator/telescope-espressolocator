@@ -1,11 +1,6 @@
 {
-  "address" : "Address",
-  "addressLine1" : "Address Line 1",
-  "addressLine2" : "Address Line 2",
-  "city" : "City",
-  "county" : "County",
-  "postcode" : "Postcode",
-  "country" : "Country",
+  "location" : "Location",
+  "specifyFullAddress" : "Specify full address",
   "distance" : "Nearest",
   "distance_view" : "Order by distance to the current location",
   "specifyLocation" : "Specify where it is located...",
