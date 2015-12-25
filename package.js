@@ -24,7 +24,6 @@ Package.onUse(function (api) {
 
   api.addFiles([
     'lib/custom_fields.js',
-    'lib/callbacks.js',
     'lib/modules.js',
     'lib/distance.js',
   ], ['client', 'server']);
