@@ -4,18 +4,20 @@
 
 .post-body {
         overflow: auto;
-        .post-domain, .post-address {
+        .post-domain, .post-address, .post-phone {
                 @include small {
                         font-size: 13px;
                 }
                 @include medium-large {
                         font-size: 14px;
                 }
-                font-weight: bold;
-                margin-bottom: 1em;
         }
         .post-domain {
                 color: $light-text;
+        }
+        .post-address {
+                font-weight: bold;
+                margin-bottom: 1em;
         }
         .map-container {
                 @include medium-large {
@@ -34,7 +36,7 @@
 
 @include small {
 	.post-body {
-		.post-domain, .post-address {
+		.post-domain, .post-address, .post-phone {
 			margin-bottom: 4px;
 			font-size: 13px;
 		}

@@ -1,8 +1,11 @@
 {
+  "url" : "Website",
+  "phone" : "Phone",
+  "specifyPhoneNumber" : "Phone number with area code...",
   "location" : "Location",
-  "specifyFullAddress" : "Specify full address",
+  "specifyFullAddress" : "Full address in one line...",
   "distance" : "Nearest",
   "distance_view" : "Order by distance to the current location",
-  "specifyLocation" : "Specify where it is located...",
+  "specifyLocation" : "Start typing the name of the place or its address...",
   "resetLocation": "Reset location"
 }

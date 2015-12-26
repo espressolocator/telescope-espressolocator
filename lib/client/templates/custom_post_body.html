@@ -5,6 +5,9 @@
     <div class="markdown">
       {{{htmlBody}}}
     </div>
+    {{#if phone}}
+      <div class="post-phone">{{phone}}</div>
+    {{/if}}
     {{#if url}}
       <div class="post-domain"><a href="{{url}}"><em>{{domain}}</em></a></div>
     {{/if}}
