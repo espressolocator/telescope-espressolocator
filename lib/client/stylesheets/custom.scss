@@ -4,41 +4,57 @@
 
 .post-body {
         overflow: auto;
-        .post-domain {
-                color: $light-text;
+        .post-domain, .post-address {
                 @include small {
                         font-size: 13px;
                 }
                 @include medium-large {
                         font-size: 14px;
                 }
-                font-weight: normal;
+                font-weight: bold;
                 margin-bottom: 1em;
         }
+        .post-domain {
+                color: $light-text;
+        }
         .map-container {
-                width: 30%;
-                max-width: 30%;
-                height: 250px;
-                margin-left: 20px;
-                margin-bottom: 1em;
-                float: right;
+                @include medium-large {
+                        width: 30%;
+                        max-width: 30%;
+                        height: 250px;
+                        margin-left: 20px;
+                        float: right;
+                        margin-bottom: 1em;
+                }
+        }
+        .markdown {
+                margin-bottom: 2em;
         }
 }
 
 @include small {
 	.post-body {
-		.post-domain {
+		.post-domain, .post-address {
 			margin-bottom: 4px;
 			font-size: 13px;
 		}
-	}
+                .map-container {
+                        height: 200px;
+			margin-bottom: 4px;
+                }
+        }
 }
 
 .post-edit, .post-submit {
         .map-container {
                 width: 100%;
                 max-width: 100%;
-                height: 500px;
+                @include small {
+                        height: 250px;
+                }
+                @include medium-large {
+                        height: 500px;
+                }
                 margin-bottom: 10px;
                 clear: both;
         }

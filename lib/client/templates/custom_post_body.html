@@ -1,11 +1,12 @@
 <template name="custom_post_body">
   <div class="post-body" aria-live="polite">
     <div class="map-container"></div>
-    {{#if url}}
-      <div class="post-domain"><a href="{{url}}"><em>{{domain}}</em></a></div>
-    {{/if}}
+    <div class="post-address">{{formattedAddress}}</div>
     <div class="markdown">
       {{{htmlBody}}}
     </div>
+    {{#if url}}
+      <div class="post-domain"><a href="{{url}}"><em>{{domain}}</em></a></div>
+    {{/if}}
   </div>
 </template>
