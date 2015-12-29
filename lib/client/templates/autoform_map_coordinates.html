@@ -1,7 +1,10 @@
 <template name="afInputHiddenGeoJsonPoint_mapCoordinates">
 <div class="form-group">
   <div class="controls">
-    <input type="hidden" value="{{this.value}}" {{this.htmlAtts}}/>
+    <div class="geojsonpoint-input" {{this.atts}}>
+      <input type="hidden" data-geo="lat" value="{{this.value.lat}}" />
+      <input type="hidden" data-geo="lng" value="{{this.value.lng}}" />
+    </div>
     <div class="map-container"></div>
   </div>
 </div>
