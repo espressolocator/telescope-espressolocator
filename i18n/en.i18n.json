@@ -1,11 +1,21 @@
 {
-  "url" : "Website",
-  "phone" : "Phone",
-  "specifyPhoneNumber" : "Phone number with area code...",
+  "nameOfCafe" : "Name",
+  "specifyNameOfCafe" : "How the place is called?",
+  "description" : "Description",
+  "specifyDescription" : "Short description if needed",
   "location" : "Location",
-  "specifyFullAddress" : "Full address in one line...",
+  "specifyLocation" : "Start typing the name of the place or its address...",
+  "resetLocation": "Reset location",
+  "specifyFullAddress" : "Full address in one line",
+  "phone" : "Phone",
+  "specifyPhoneNumber" : "Phone number with area code ",
+  "website" : "Website",
+
+
   "distance" : "Nearest",
   "distance_view" : "Order by distance to the current location",
-  "specifyLocation" : "Start typing the name of the place or its address...",
-  "resetLocation": "Reset location"
+
+  "categories" : "Tags",
+
+  "post" : "Suggest location"
 }
