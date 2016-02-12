@@ -67,6 +67,25 @@
         }
 }
 
+.posts-map {
+        .map-container {
+                width: 100%;
+                max-width: 100%;
+                @include small {
+                        height: 250px;
+                }
+                @include medium-large {
+                        height: 500px;
+                }
+                margin-bottom: 10px;
+        }
+        .search-locations-input {
+                width: 100%;
+                max-width: 100%;
+                margin-bottom: 10px;
+        }
+}
+
 .pac-container:after {  /* Disclaimer: not needed to show 'powered by Google' if also a Google Map is shown */
         background-image: none !important;
         height: 0px;

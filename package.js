@@ -26,6 +26,7 @@ Package.onUse(function (api) {
     'lib/custom_fields.js',
     'lib/modules.js',
     'lib/distance.js',
+    'lib/menu_map.js',
   ], ['client', 'server']);
 
   // client
@@ -37,6 +38,8 @@ Package.onUse(function (api) {
     'lib/client/templates/custom_post_edit.js',
     'lib/client/templates/custom_post_submit.js',
     'lib/client/templates/custom_post_share.js',
+    'lib/client/templates/posts_map.html',
+    'lib/client/templates/posts_map.js',
     'lib/client/templates/autoform_map_coordinates.html',
     'lib/client/stylesheets/custom.scss',
     'lib/client/custom_templates.js',

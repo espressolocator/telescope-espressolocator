@@ -17,5 +17,8 @@
 
   "categories" : "Tags",
 
-  "post" : "Suggest location"
+  "post" : "Suggest location",
+
+  "map" : "Map",
+  "map_view" : "Map view"
 }
