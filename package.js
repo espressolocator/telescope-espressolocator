@@ -12,6 +12,7 @@ Package.onUse(function (api) {
     'telescope:core',
     'kabalin:autoform-geojson-point',
     'jeremy:geocomplete',
+    'kabalin:googlemaps-js-info-bubble'
   ], ['client', 'server']);
   api.imply(['dburles:google-maps']);
 
@@ -40,6 +41,7 @@ Package.onUse(function (api) {
     'lib/client/templates/custom_post_share.js',
     'lib/client/templates/posts_map.html',
     'lib/client/templates/posts_map.js',
+    'lib/client/templates/posts_map_info_bubble.html',
     'lib/client/templates/autoform_map_coordinates.html',
     'lib/client/stylesheets/custom.scss',
     'lib/client/custom_templates.js',
