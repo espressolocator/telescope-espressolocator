@@ -4,5 +4,10 @@
       <input class="form-control search-locations-input" type="text" placeholder="Search location...">
     </div>
     <div class="map-container"></div>
+    <div class="info-bubble-content-container hidden">
+    {{#each posts}}
+      {{> posts_map_info_bubble}}
+    {{/each}}
+    </div>
   </div>
 </template>
