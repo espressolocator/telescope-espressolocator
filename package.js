@@ -65,6 +65,8 @@ Package.onUse(function (api) {
   // static fles
   api.addAssets([
     'assets/logo-icon-marker.png',
+    'assets/logo-full-transparent.png',
+    'assets/favicon.ico',
   ], ['client']);
 
 });
