@@ -26,7 +26,7 @@ Package.onUse(function (api) {
   api.addFiles([
     'lib/custom_fields.js',
     'lib/modules.js',
-    'lib/distance.js',
+    'lib/menu_nearest.js',
     'lib/menu_map.js',
   ], ['client', 'server']);
 
@@ -42,6 +42,8 @@ Package.onUse(function (api) {
     'lib/client/templates/custom_views_menu.html',
     'lib/client/templates/posts_map.html',
     'lib/client/templates/posts_map.js',
+    'lib/client/templates/posts_nearest.html',
+    'lib/client/templates/posts_nearest.js',
     'lib/client/templates/posts_map_info_bubble.html',
     'lib/client/templates/autoform_map_coordinates.html',
     'lib/client/stylesheets/custom.scss',

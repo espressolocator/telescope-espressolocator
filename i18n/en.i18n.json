@@ -12,13 +12,13 @@
   "website" : "Website",
 
 
-  "distance" : "Nearest",
-  "distance_view" : "Order by distance to the current location",
+  "nearest" : "Nearest",
+  "nearest_view" : "Order by proximity to the current location",
 
   "categories" : "Tags",
 
   "post" : "Suggest location",
 
   "map" : "Map",
-  "map_view" : "Map view"
+  "map_view" : "Show locations on the map"
 }
