@@ -39,6 +39,7 @@ Package.onUse(function (api) {
     'lib/client/templates/custom_post_edit.js',
     'lib/client/templates/custom_post_submit.js',
     'lib/client/templates/custom_post_share.js',
+    'lib/client/templates/custom_views_menu.html',
     'lib/client/templates/posts_map.html',
     'lib/client/templates/posts_map.js',
     'lib/client/templates/posts_map_info_bubble.html',
