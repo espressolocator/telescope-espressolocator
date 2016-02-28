@@ -12,7 +12,8 @@ Package.onUse(function (api) {
     'telescope:core',
     'kabalin:autoform-geojson-point',
     'jeremy:geocomplete',
-    'kabalin:googlemaps-js-info-bubble'
+    'kabalin:googlemaps-js-info-bubble',
+    'mdg:geolocation',
   ], ['client', 'server']);
   api.imply(['dburles:google-maps']);
 

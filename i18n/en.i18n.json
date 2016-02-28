@@ -14,6 +14,7 @@
 
   "nearest" : "Nearest",
   "nearest_view" : "Order by proximity to the current location",
+  "you_need_to_enable_geolocation" : "You need to enable Geolocation to use the nearest locations view.",
 
   "categories" : "Tags",
 
