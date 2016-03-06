@@ -1,5 +1,7 @@
 <template name="post_distance">
   <div class="{{moduleClass}}">
+    {{#if isLocationReady}}
     ({{getDistance}} {{_ 'miles'}})
+    {{/if}}
   </div>
 </template>
