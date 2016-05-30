@@ -18,9 +18,56 @@
   "miles": "miles",
 
   "categories" : "Tags",
+  "post_submit" : "Suggest location",
 
-  "post" : "Suggest location",
+  "post" : "Location",
+  "submitted_posts" : "Submitted Locations",
+  "upvoted_posts" : "Upvoted Locations",
+  "downvoted_posts" : "Downvoted Locations",
+  "posts_awaiting_moderation" : "Locations awaiting moderation.",
+  "sorry_you_cannot_edit_this_post" : "Sorry, you cannot edit this locaton.",
+  "most_popular_posts" : "The most popular locations right now.",
+  "newest_posts" : "The newest locations.",
+  "highest_ranked_posts_ever" : "The all-time highest-ranked locations.",
+  "posts_awaiting_moderation" : "Locations awaiting moderation.",
+  "future_scheduled_posts" : "Future scheduled location adding.",
+  "day_by_day_view" : "The most popular locations of each day.",
+  "start_posting" : "Start adding locations!",
+
+  "postsPerNewsletter" : "Locations per Newsletter",
+
+  "a_new_comment_on_your_post" : "A new comment on your location",
+  "on_your_post" : " on your location",
+  "has_created_a_new_post" : " has created a new location",
+  "your_post" : "Your post",
+  "import_new_posts_from_feeds" : "Import new locations from feeds.",
+
+  "this_link_has_already_been_posted" : "This link has already been used in different location",
+  "posts_per_day" : " locations per day",
+  "seconds_before_posting_again" : " seconds before adding location again",
+  "sorry_we_couldnt_find_any_posts" : "Sorry, we couldn't find any locations.",
+  "your_post_has_been_deleted" : "Your location has been deleted.",
+  "note_this_post_is_still_pending_so_it_has_no_submission_timestamp_yet" : "Note: this location is still pending so it has no submission timestamp yet.",
+
+  "delete_post" : "Delete Location",
+  "thanks_your_post_is_awaiting_approval" : "Thanks, your location is awaiting approval.",
+
+  "postInterval" : "Location posting Interval",
+  "postsPerPage" : "Locations Per Page",
+  "postsLayout" : "Locations Layout",
+  "postViews" : "Locations Views",
+  "the_top_5_posts_of_each_day" : "The top 5 locations of each day.",
+  "sorry_no_posts_for_today" : "Sorry, no location have been posted today",
+  "sorry_no_posts_for" : "Sorry, no location have been posted for",
+  "posts_of_a_single_day" : "The locations of a single day.",
+
+  "subscribed_posts" : "Subscribed Locations",
+  "new_posts" : "New Locations",
+  "comments_on_my_posts" : "Comments on my locations",
+  "posts" : "Locations",
+  "delete_users_posts_comments_as_well" : "Delete user's locations and comments as well?",
 
   "map" : "Map",
   "map_view" : "Show locations on the map"
 }
+
