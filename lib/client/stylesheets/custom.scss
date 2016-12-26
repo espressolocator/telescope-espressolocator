@@ -87,9 +87,28 @@
         }
 }
 
+.footer-code {
+        .copyright {
+                float: right;
+                margin-right: 15px;
+        }
+        .footer-contact {
+                float: left;
+                margin-left: 5px;
+                .footer-social {
+                    margin-left: 10px;
+                    font-size: 15px;
+                }
+        }
+}
+
 .pac-container:after {  /* Disclaimer: not needed to show 'powered by Google' if also a Google Map is shown */
         background-image: none !important;
         height: 0px;
         padding: 0px;
         margin: 0px;
+}
+
+.page-container .page-title {
+        display: none;
 }
