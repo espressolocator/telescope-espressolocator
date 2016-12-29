@@ -11,5 +11,16 @@
     {{#if url}}
       <div class="post-domain"><a href="{{url}}"><em>{{domain}}</em></a></div>
     {{/if}}
+    <div class="post-social">
+    {{#if twitter}}
+      <span><a href="https://twitter.com/{{twitter}}"><i class="fa fa-twitter"></i></a></span>
+    {{/if}}
+    {{#if facebook}}
+      <span><a href="{{facebook}}"><i class="fa fa-facebook"></i></a></span>
+    {{/if}}
+    {{#if instagram}}
+      <span><a href="https://www.instagram.com/{{instagram}}"><i class="fa fa-instagram"></i></a></span>
+    {{/if}}
+    </div>
   </div>
 </template>

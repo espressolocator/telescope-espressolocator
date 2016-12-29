@@ -4,7 +4,7 @@
 
 .post-body {
         overflow: auto;
-        .post-domain, .post-address, .post-phone {
+        .post-domain, .post-address, .post-phone, .post-social {
                 @include small {
                         font-size: 13px;
                 }
@@ -12,7 +12,7 @@
                         font-size: 14px;
                 }
         }
-        .post-domain {
+        .post-domain, .post-social {
                 color: $light-text;
         }
         .post-address {
@@ -32,11 +32,14 @@
         .markdown {
                 margin-bottom: 2em;
         }
+        .post-social span {
+                margin-right: 1em;
+        }
 }
 
 @include small {
 	.post-body {
-		.post-domain, .post-address, .post-phone {
+		.post-domain, .post-address, .post-phone, .post-social {
 			margin-bottom: 4px;
 			font-size: 13px;
 		}

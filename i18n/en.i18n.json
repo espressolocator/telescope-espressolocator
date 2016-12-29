@@ -1,8 +1,8 @@
 {
   "nameOfCafe" : "Name",
-  "specifyNameOfCafe" : "How the place is called?",
+  "specifyNameOfCafe" : "What is the name of the place?",
   "description" : "Description",
-  "specifyDescription" : "Short description if needed",
+  "specifyDescription" : "Short description if needed (Markdown syntax is supported)",
   "location" : "Location",
   "specifyLocation" : "Start typing the name of the place or its address...",
   "resetLocation": "Reset location",
@@ -10,7 +10,16 @@
   "phone" : "Phone",
   "specifyPhoneNumber" : "Phone number with area code ",
   "website" : "Website",
-
+  "specifyWebsite" : "Website URL",
+  "twitter" : "Twitter",
+  "specifyTwitter" : "Twitter account name",
+  "twitterValidationError" : "Specify a twitter account name, with preceeding @ or without, e.g. @espressolocator",
+  "facebook" : "Facebook",
+  "specifyFacebook" : "Facebook profile URL",
+  "facebookValidationError" : "Make sure you specified a Facebook full URL pointing to account name",
+  "instagram" : "Instagram",
+  "specifyInstagram" : "Instagram account name",
+  "instagramValidationError" : "Specify just Instagram account name without preceeding @",
 
   "nearest" : "Nearest",
   "nearest_view" : "Order by proximity to the current location",
