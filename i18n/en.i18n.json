@@ -21,6 +21,8 @@
   "specifyInstagram" : "Instagram account name",
   "instagramValidationError" : "Specify just Instagram account name without preceeding @",
 
+  "please_check_guidelines": "Please make sure you read <a href=\"/page/faq#posting-guidelines\">posting guidelines</a> before suggesting your first location.",
+
   "nearest" : "Nearest",
   "nearest_view" : "Order by proximity to the current location",
   "you_need_to_enable_geolocation" : "Can't determine your location, Geolocation needs to be enabled in browser for full functionality.",
