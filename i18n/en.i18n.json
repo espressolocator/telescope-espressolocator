@@ -79,6 +79,7 @@
   "delete_users_posts_comments_as_well" : "Delete user's locations and comments as well?",
 
   "map" : "Map",
-  "map_view" : "Show locations on the map"
+  "map_view" : "Show locations on the map",
+  "edit_account" : "Edit profile"
 }
 
