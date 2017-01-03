@@ -95,12 +95,16 @@
 
 .footer-code {
         .copyright {
-                float: right;
-                margin-right: 15px;
+                @include medium-large {
+                        float: right;
+                        margin-right: 15px;
+                }
         }
         .footer-contact {
-                float: left;
-                margin-left: 5px;
+                @include medium-large {
+                        float: left;
+                        margin-left: 5px;
+                }
                 .footer-social {
                     margin-left: 10px;
                     font-size: 15px;
