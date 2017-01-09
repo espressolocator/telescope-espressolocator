@@ -94,21 +94,29 @@
 }
 
 .footer-code {
+        position: relative;
+        font-size: 13px;
         .copyright {
                 @include medium-large {
-                        float: right;
+                        position: absolute;
+                        right: 0;
                         margin-right: 15px;
                 }
         }
         .footer-contact {
+                font-size: 14pt;
                 @include medium-large {
-                        float: left;
-                        margin-left: 5px;
+                        position: absolute;
+                        left: 0;
+                        top: -2pt;
+                        margin-left: 15px;
                 }
                 .footer-social {
-                    margin-left: 10px;
-                    font-size: 15px;
+                    margin-right: 10px;
                 }
+        }
+        .footer-link {
+                margin: 0 5px;
         }
 }
 
