@@ -51,6 +51,9 @@
         .header {
                 position: relative;
         }
+        .main-posts-list .post-actions {
+                display: none;
+        }
 }
 
 .post-edit, .post-submit {
