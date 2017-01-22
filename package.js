@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Telescope EspressoLocator customisation package',
-  version: '1.0.0-beta',
+  version: '1.0.1-beta',
   name: 'kabalin:telescope-espressolocator'
 });
 
@@ -51,6 +51,7 @@ Package.onUse(function (api) {
     'lib/client/templates/posts_nearest.js',
     'lib/client/templates/posts_map_info_bubble.html',
     'lib/client/templates/autoform_map_coordinates.html',
+    'lib/client/templates/version.html',
     'lib/client/stylesheets/custom.scss',
     'lib/client/custom_templates.js',
     'lib/client/google_maps.js',
