@@ -57,6 +57,7 @@ Package.onUse(function (api) {
     'lib/client/google_maps.js',
     'lib/client/address_panel.js',
     'lib/client/assets.js',
+    'lib/client/version.js',
   ], ['client']);
 
   // server
