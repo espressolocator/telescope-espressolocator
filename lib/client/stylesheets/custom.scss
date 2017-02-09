@@ -140,6 +140,20 @@
         }
 }
 
+.static-post-category {
+        display:inline-block;
+        font-size:12px;
+        font-weight: bold !important;
+        background:#eee;
+        padding:3px 5px 1px 5px;
+        text-transform:uppercase;
+        font-weight:normal;
+        vertical-align:middle;
+        border-radius: 3px;
+        position: relative;
+        top: -2px;
+}
+
 .views-menu-wrapper {
         ul.menu-items {
                 text-align: center;

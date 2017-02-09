@@ -37,6 +37,7 @@ Package.onUse(function (api) {
     'lib/client/templates/post_distance.html',
     'lib/client/templates/post_distance.js',
     'lib/client/templates/custom_post_title.html',
+    'lib/client/templates/custom_post_categories.html',
     'lib/client/templates/custom_post_body.html',
     'lib/client/templates/custom_post_body.js',
     'lib/client/templates/custom_post_edit.js',
