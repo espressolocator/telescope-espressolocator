@@ -59,6 +59,7 @@ Package.onUse(function (api) {
     'lib/client/address_panel.js',
     'lib/client/assets.js',
     'lib/client/version.js',
+    'lib/client/main.js',
   ], ['client']);
 
   // server
@@ -78,6 +79,9 @@ Package.onUse(function (api) {
     'assets/logo-icon-marker.png',
     'assets/logo-full-transparent.png',
     'assets/favicon.ico',
+    'assets/touch-icon-180.png',
+    'assets/touch-icon-192.png',
+    'assets/manifest.json',
   ], ['client']);
 
 });

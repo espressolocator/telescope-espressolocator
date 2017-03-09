@@ -1,0 +1,17 @@
+{
+  "short_name": "EspressoLocator",
+  "name": "EspressoLocator",
+  "description": "Find the best independent speciality coffee shops nearby.",
+  "icons": [
+    {
+      "src": "/packages/kabalin_telescope-espressolocator/assets/touch-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#f0efef",
+  "background_color": "#352b24"
+}
