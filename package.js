@@ -82,6 +82,11 @@ Package.onUse(function (api) {
     'assets/touch-icon-180.png',
     'assets/touch-icon-192.png',
     'assets/manifest.json',
+    'assets/ipguide/ipguide1.png',
+    'assets/ipguide/ipguide2.png',
+    'assets/ipguide/ipguide3.png',
+    'assets/ipguide/ipguide4.png',
+    'assets/ipguide/ipguide5.png',
   ], ['client']);
 
 });
