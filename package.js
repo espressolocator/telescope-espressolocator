@@ -87,6 +87,7 @@ Package.onUse(function (api) {
     'assets/ipguide/ipguide3.png',
     'assets/ipguide/ipguide4.png',
     'assets/ipguide/ipguide5.png',
+    'assets/ipguide/shareicon.png',
   ], ['client']);
 
 });
