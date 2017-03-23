@@ -21,12 +21,8 @@
         }
         .map-container {
                 @include medium-large {
-                        width: 30%;
-                        max-width: 30%;
                         height: 250px;
-                        margin-left: 20px;
-                        float: right;
-                        margin-bottom: 1em;
+                        margin-top: 0.5em;
                 }
         }
         .markdown {
@@ -34,6 +30,7 @@
         }
         .post-social span {
                 margin-right: 1em;
+                font-size: 16px;
         }
 }
 
@@ -45,7 +42,7 @@
 		}
                 .map-container {
                         height: 200px;
-			margin-bottom: 4px;
+			margin-top: 0.5em;
                 }
         }
         .header {
