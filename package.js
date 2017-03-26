@@ -34,6 +34,7 @@ Package.onUse(function (api) {
   // client
 
   api.addFiles([
+    'lib/client/templates/post_time.html',
     'lib/client/templates/post_distance.html',
     'lib/client/templates/post_distance.js',
     'lib/client/templates/custom_post_title.html',

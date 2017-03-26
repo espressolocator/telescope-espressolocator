@@ -1,0 +1,6 @@
+<template name="post_time">
+  <div class="{{moduleClass}}" aria-live="off">
+    {{#if postedAt}}<span class="post-time">{{_ "Listed"}} {{formatDate postedAt 'DD/MM/YY'}}</span>{{/if}}
+  </div>
+</template>
+
