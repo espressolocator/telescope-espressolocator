@@ -53,6 +53,26 @@
         }
 }
 
+.post {
+        .post-vote {
+                position: absolute;
+                .vote-actions {
+                    border-radius: 3px;
+                    width: 30px;
+                    .vote-action {
+                        text-align: center;
+                        font-size: 12px;
+                    }
+                }
+                .upvoted {
+                    border-color: $red;
+                }
+        }
+        .post-content {
+                margin-left: 40px;
+        }
+}
+
 .post-edit, .post-submit {
         .map-container {
                 width: 100%;
@@ -134,15 +154,6 @@
 .posts-wrapper {
         .no-posts {
                 text-align: center;
-        }
-}
-
-.post-vote {
-        .upvoted {
-                border-color: $red;
-        }
-        .upvote-link {
-                color: $dark-grey;
         }
 }
 
