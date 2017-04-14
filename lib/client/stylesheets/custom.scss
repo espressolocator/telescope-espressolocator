@@ -188,3 +188,13 @@
                 font-size: 13px;
         }
 }
+
+.list-group {
+        .autoform-array-item-body > .form-group > .control-label {
+                display: none;
+        }
+        .btn {
+                float: none !important;
+        }
+}
+
