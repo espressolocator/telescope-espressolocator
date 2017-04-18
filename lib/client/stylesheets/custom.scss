@@ -36,14 +36,14 @@
 }
 
 @include small {
-	.post-body {
-		.post-domain, .post-phone, .post-social {
-			margin-bottom: 4px;
-			font-size: 13px;
-		}
+        .post-body {
+                .post-phone, .post-social {
+                        margin-bottom: 4px;
+                        font-size: 13px;
+                }
                 .map-container {
                         height: 200px;
-			margin-top: 0.5em;
+                        margin-top: 0.5em;
                 }
         }
         .header {
