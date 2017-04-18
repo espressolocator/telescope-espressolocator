@@ -72,6 +72,13 @@
         .post-content {
                 margin-left: 40px;
         }
+        .post-heading {
+                .post-address {
+                    font-size: 13px;
+                    font-weight: bold;
+                    color: $grey;
+                }
+        }
 }
 
 .post-edit, .post-submit {
