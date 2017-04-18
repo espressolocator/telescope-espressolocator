@@ -4,7 +4,7 @@
 
 .post-body {
         overflow: auto;
-        .post-domain, .post-phone, .post-social {
+        .post-phone, .post-social {
                 @include small {
                         font-size: 13px;
                 }
@@ -12,7 +12,7 @@
                         font-size: 14px;
                 }
         }
-        .post-domain, .post-social {
+        .post-social {
                 color: $light-text;
         }
         .map-container {
@@ -24,9 +24,14 @@
         .markdown {
                 margin-bottom: 2em;
         }
-        .post-social span {
-                margin-right: 1em;
-                font-size: 16px;
+        .post-social {
+                div {
+                        margin-right: 3px;
+                        display: inline-block;
+                }
+                .avatar-initials {
+                        background-color: $blue-grey;
+                }
         }
 }
 
