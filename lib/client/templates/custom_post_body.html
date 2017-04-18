@@ -3,6 +3,14 @@
     <div class="markdown">
       {{{htmlBody}}}
     </div>
+    {{#if reviews}}
+    <h3>Independent reviews</h3>
+    <ul>
+      {{#each reviews}}
+      <li><a href="{{url}}">{{sitename}}</a></li>
+      {{/each}}
+    </ul>
+    {{/if}}
     {{#if phone}}
       <div class="post-phone"><a href="tel:{{phone}}">{{phone}}</a></div>
     {{/if}}
