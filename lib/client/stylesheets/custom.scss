@@ -32,15 +32,17 @@
                 }
                 .avatar-initials {
                         background-color: $blue-grey;
+                        padding-top: 1px;
                 }
         }
         .post-reviews {
                 h3 {
-                    font-size: 16px;
+                    font-size: 14px;
                 }
                 li {
                     margin-left: 1em;
                     font-size: 14px;
+                    color: $grey;
                 }
         }
 }
