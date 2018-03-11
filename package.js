@@ -1,7 +1,8 @@
 Package.describe({
-  summary: 'Telescope EspressoLocator customisation package',
-  version: '1.0.1-beta',
-  name: 'kabalin:telescope-espressolocator'
+  summary: 'Telescope EspressoLocator Webapp package',
+  version: '1.0.3-beta',
+  name: 'espressolocator:telescope-espressolocator',
+  git: 'https://github.com/espressolocator/telescope-espressolocator'
 });
 
 Package.onUse(function (api) {
@@ -10,9 +11,9 @@ Package.onUse(function (api) {
 
   api.use([
     'telescope:core',
-    'kabalin:autoform-geojson-point',
+    'espressolocator:autoform-geojson-point',
     'jeremy:geocomplete',
-    'kabalin:googlemaps-js-info-bubble',
+    'espressolocator:googlemaps-js-info-bubble',
     'mdg:geolocation',
   ], ['client', 'server']);
   api.imply(['dburles:google-maps']);
