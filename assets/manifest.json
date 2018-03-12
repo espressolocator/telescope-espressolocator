@@ -4,7 +4,7 @@
   "description": "Find the best independent speciality coffee shops nearby.",
   "icons": [
     {
-      "src": "/packages/kabalin_telescope-espressolocator/assets/touch-icon-192.png",
+      "src": "/packages/espressolocator_telescope-espressolocator/assets/touch-icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     }
