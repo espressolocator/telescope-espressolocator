@@ -1,8 +1,8 @@
 # telescope-espressolocator
 
 The package provides EspressoLocator web application for coffee lovers. It is
-designed to be used in conjunction with moderately customised Telescope
-framework.
+designed to be used in conjunction with [moderately customised TelescopeJS
+framework](https://github.com/espressolocator/telescope).
 
 For more details on EspressoLocator please refer to its [FAQ](https://espressolocator.com/page/faq).
 
