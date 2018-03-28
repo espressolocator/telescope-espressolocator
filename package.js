@@ -56,6 +56,7 @@ Package.onUse(function (api) {
     'lib/client/templates/autoform_map_coordinates.html',
     'lib/client/templates/version.html',
     'lib/client/stylesheets/custom.scss',
+    'lib/client/stylesheets/iubenda.scss',
     'lib/client/custom_templates.js',
     'lib/client/google_maps.js',
     'lib/client/address_panel.js',
