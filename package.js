@@ -1,6 +1,6 @@
 Package.describe({
   summary: 'Telescope EspressoLocator Webapp package',
-  version: '1.0.4-beta',
+  version: '1.0.5-beta',
   name: 'espressolocator:telescope-espressolocator',
   git: 'https://github.com/espressolocator/telescope-espressolocator'
 });
