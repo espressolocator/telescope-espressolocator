@@ -4,7 +4,7 @@ The package provides EspressoLocator web application for coffee lovers. It is
 designed to be used in conjunction with [moderately customised TelescopeJS
 framework](https://github.com/espressolocator/telescope).
 
-For more details on EspressoLocator please refer to its [FAQ](https://espressolocator.com/page/faq).
+For more details on EspressoLocator please refer to its [FAQ](https://espressolocator.app/page/faq).
 
 ## Issue tracker
 
@@ -24,13 +24,6 @@ questionaires.
 If you are developer, contributed code is more than welcome. Please submit a ticket 
 if you have an idea of the feature you want to work on, so we can discuss it. Some
 most wanted features already got tickets, so you can pick any and work.
-
-The higer priority task at the moment is refactoring all functionality to
-[VulcanJS](http://docs.vulcanjs.org/index.html) ([#16](https://github.com/espressolocator/telescope-espressolocator/issues/16)), which is ReactJS and
-GraphQL/Apollo framework for Meteor. VulcanJS is designed in a way that each
-layer is independent, therefore developer has more freedom in terms of
-choosing the components or moving away altogether to the different stack.
-VulcanJS is an evolution of TelescopeJS that this package is using.
 
 By contributing to EspressoLocator, you agree that your code will be licensed
 under its MIT license.
