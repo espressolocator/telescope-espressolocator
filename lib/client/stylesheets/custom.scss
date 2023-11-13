@@ -2,6 +2,10 @@
 @import "{telescope:theme-hubble}/lib/client/scss/partials/colors";
 @import "{telescope:theme-hubble}/lib/client/scss/partials/mixins";
 
+.button, .btn-primary {
+    background-color: rgba(135, 115, 102, 0.9) !important;
+}
+
 .post-body {
         overflow: auto;
         .post-phone, .post-social {
