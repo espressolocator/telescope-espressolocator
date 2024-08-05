@@ -1,7 +1,3 @@
 <template name="posts_nearest">
-  {{#if locationReady}}
-    {{> posts_list_controller arguments}}
-  {{else}}
-    <div class="posts-loading">{{> loading}}</div>
-  {{/if}}
+  {{> posts_list_controller arguments}}
 </template>
