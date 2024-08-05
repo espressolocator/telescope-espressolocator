@@ -25,7 +25,7 @@
 
   "nearest" : "Nearest",
   "nearest_view" : "Order by proximity to the current location",
-  "you_need_to_enable_geolocation" : "Can't determine your location, Geolocation needs to be enabled in browser for full functionality.",
+  "you_need_to_enable_geolocation" : "Please enable Geolocation for full experience, for now app is assuming you are in London 💂",
   "miles" : "miles",
   "Listed" : "Listed",
 
