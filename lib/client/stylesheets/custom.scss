@@ -20,6 +20,7 @@
                 color: $light-text;
         }
         .map-container {
+                margin-bottom: 15px;
                 @include medium-large {
                         height: 250px;
                         margin-top: 0.5em;
@@ -36,7 +37,6 @@
                 }
                 .avatar-initials {
                         background-color: $blue-grey;
-                        padding-top: 1px;
                 }
         }
         .post-reviews {
@@ -48,6 +48,9 @@
                     font-size: 14px;
                     color: $grey;
                 }
+        }
+        .map-link {
+                width: min-content;
         }
 }
 
