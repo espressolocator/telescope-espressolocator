@@ -85,6 +85,7 @@
   "please_sign_in_first" : "<p>EspressoLocator allows anyone to add new places, but you need to <a href=\"/sign-in\">login</a> first. This will let you editing your listings in future and build reputation by adding more places.</p><br><p>If you do not have an account yet, you need to <a href=\"/register\">register</a> first or login through the social network.</p>",
   "sitename" : "Website name",
   "reviews" : "Reviews",
-  "open_in_google_maps" : "Open in Google Maps"
+  "open_in_google_maps" : "Open in Google Maps",
+  "opening_hours" : "Opening hours"
 }
 

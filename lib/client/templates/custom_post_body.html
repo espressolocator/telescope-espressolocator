@@ -3,6 +3,11 @@
     <div class="markdown">
       {{{htmlBody}}}
     </div>
+    <div class="opening-hours">
+      <h3><i class="fa fa-clock-o"></i>{{_ "opening_hours"}}</h3>
+      <ul class="hours-list">
+      </ul>
+    </div>
     {{#if reviews}}
     <div class="post-reviews">
       <h3>{{_ "reviews"}}</h3>
@@ -39,8 +44,10 @@
     {{/if}}
     </div>
     <div class="map-container"></div>
-    <a href="" class="map-link btn btn-primary" target="_blank" rel="noopener noreferrer">
-      {{_ "open_in_google_maps"}}
-    </a>
+    <div class="map-link">
+      <a href="" class="btn btn-primary" target="_blank" rel="noopener noreferrer">
+        {{_ "open_in_google_maps"}}
+      </a>
+    </div>
   </div>
 </template>

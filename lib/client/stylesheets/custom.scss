@@ -2,12 +2,18 @@
 @import "{telescope:theme-hubble}/lib/client/scss/partials/colors";
 @import "{telescope:theme-hubble}/lib/client/scss/partials/mixins";
 
+$background: #f0efef;
+$primary: rgba(135, 115, 102, 0.9);
+
 .button, .btn-primary {
-    background-color: rgba(135, 115, 102, 0.9) !important;
+    background-color: $primary !important;
 }
 
 .post-body {
         overflow: auto;
+        div {
+            margin-bottom: 15px;
+        }
         .post-phone, .post-social {
                 @include small {
                         font-size: 13px;
@@ -15,12 +21,12 @@
                 @include medium-large {
                         font-size: 14px;
                 }
+                margin-bottom: 15px;
         }
         .post-social {
                 color: $light-text;
         }
         .map-container {
-                margin-bottom: 15px;
                 @include medium-large {
                         height: 250px;
                         margin-top: 0.5em;
@@ -30,9 +36,9 @@
                 margin-bottom: 2em;
         }
         .post-social {
-                margin-top: 0.5em;
                 div {
                         margin-right: 3px;
+                        margin-bottom: 0;
                         display: inline-block;
                 }
                 .avatar-initials {
@@ -51,6 +57,38 @@
         }
         .map-link {
                 width: min-content;
+                display: none;
+        }
+        .opening-hours {
+            display: none;
+            padding: 11px;
+            background: $background;
+            border-radius: 8px;
+            border-left: 4px solid $primary;
+            i {
+                margin-right: 8px;
+            }
+            h3 {
+                font-size: 14px;
+            }
+        }
+
+        .hours-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .hours-list li {
+            display: flex;
+            justify-content: space-between;
+            padding: 4px 0;
+            border-bottom: 1px solid #e0e0e0;
+            margin-bottom: 0;
+        }
+
+        .hours-list li:last-child {
+            border-bottom: none;
         }
 }
 
